@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1042</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>211</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(61, 130, 219);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>0</y>
+      <width>811</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="2">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="lefteye_label">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="right_label">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="topgraph_1_label">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="topgraph2_label">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="bottomgraph1_label">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="bottomgraph_2label">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="avatar_label">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>181</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="timer_label">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="Calibrate_pushButton">
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+
+border-radius:15px;
+  padding: 10px;
+
+</string>
+           </property>
+           <property name="text">
+            <string>Caliberate</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QPushButton" name="play_pushButton">
+               <property name="styleSheet">
+                <string notr="true">
+background-color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+
+border-radius:15px;
+  padding: 10px;
+
+button.setStyleSheet(&quot;qproperty-icon: url(&quot;F:\.venv\The_GUI_dr\Screenshot 2024-10-07 025553.png&quot;);&quot;);</string>
+               </property>
+               <property name="text">
+                <string>P</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="stop_pushButton">
+               <property name="styleSheet">
+                <string notr="true">
+background-color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+
+border-radius:15px;
+  padding: 10px;
+
+button.setStyleSheet(&quot;qproperty-icon: url(&quot;F:\.venv\The_GUI_dr\Screenshot 2024-10-07 025553.png&quot;);&quot;);</string>
+               </property>
+               <property name="text">
+                <string>S</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="Save_pushButton">
+             <property name="styleSheet">
+              <string notr="true">
+background-color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
+
+border-radius:15px;
+  padding: 10px;
+
+</string>
+             </property>
+             <property name="text">
+              <string>Save</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="Home_label">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/newPrefix/Screenshot 2024-10-07 030545.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="setting_label">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/newPrefix/Screenshot 2024-10-07 030649.png);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>horizontalLayoutWidget</zorder>
+   <zorder>horizontalLayoutWidget_2</zorder>
+   <zorder>horizontalLayoutWidget_3</zorder>
+   <zorder>avatar_label</zorder>
+   <zorder>Calibrate_pushButton</zorder>
+   <zorder>Save_pushButton</zorder>
+   <zorder>play_pushButton</zorder>
+   <zorder>stop_pushButton</zorder>
+   <zorder>Home_label</zorder>
+   <zorder>timer_label</zorder>
+   <zorder>setting_label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1042</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="The_GUI_dr/this_is_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
