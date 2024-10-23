@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::RightToLeft</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="backgroundimg_label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1071</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image: url(:/Login/login_back.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Logo_label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>50</y>
+      <width>191</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/newPrefix/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>351</width>
+      <height>312</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="Stayfit_label">
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 34pt &quot;Myanmar Text&quot;;
+
+
+font-weight:500;
+color: rgb(16,130,219);
+
+</string>
+       </property>
+       <property name="text">
+        <string>        Stayfit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="Name_label">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Myanmar Text&quot;;
+
+
+font-weight:500;
+color: rgb(16,130,219);
+</string>
+         </property>
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Name_lineEdit">
+         <property name="styleSheet">
+          <string notr="true">border-radius:10px;
+  padding: 10px;
+
+border-style:outset;
+border-width:1px;
+border-color:black;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Passward_label">
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;Myanmar Text&quot;;
+
+
+font-weight:500;
+color: rgb(16,130,219);
+</string>
+         </property>
+         <property name="text">
+          <string>Passward</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="Passward_lineEdit">
+         <property name="styleSheet">
+          <string notr="true">border-radius:10px;
+  padding: 10px;
+
+border-style:outset;
+border-width:1px;
+border-color:black;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Enter_pushButton">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(16,130,219);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255,255,255);
+
+border-radius:15px;
+  padding: 10px;
+
+</string>
+         </property>
+         <property name="text">
+          <string>Enter</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1064</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>Name_lineEdit</tabstop>
+  <tabstop>Passward_lineEdit</tabstop>
+  <tabstop>Enter_pushButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="Saved_ui_file/The_GUI_dr/this_is_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

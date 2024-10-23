@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="Back_third">
+    <file>login_back.png</file>
+  </qresource>
+  <qresource prefix="Login">
+    <file>login_back.png</file>
+  </qresource>
+  <qresource prefix="Search">
+    <file>without_date.png</file>
+    <file>Screenshot 2024-10-04 174855.png</file>
+  </qresource>
+  <qresource prefix="registeration">
+    <file>without_date.png</file>
+  </qresource>
+</RCC>
